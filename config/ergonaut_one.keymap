@@ -51,7 +51,7 @@
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <3 4>;
+            key-positions = <7 8>;
         };
 
         lower_minus {
