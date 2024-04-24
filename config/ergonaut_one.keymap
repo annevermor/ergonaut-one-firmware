@@ -74,14 +74,14 @@
         open_chrome: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &kp DOWN_ARROW &kp RIGHT_ARROW &kp ENTER>;
+            bindings = <&kp LEFT_GUI &kp DOWN_ARROW &kp RIGHT_ARROW &kp KP_ENTER>;
             label = "NEW_MACRO";
         };
 
         open_telegram: open_telegram {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI &kp DOWN_ARROW &kp ENTER>;
+            bindings = <&kp LEFT_GUI &kp DOWN_ARROW &kp KP_ENTER>;
             label = "OPEN_TELEGRAM";
         };
     };
