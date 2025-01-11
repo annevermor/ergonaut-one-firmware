@@ -17,11 +17,6 @@
 
 &mt { quick-tap-ms = <200>; };
 
-&mmv {
-    acceleration-exponent = <1>;
-    time-to-max-speed-ms = <400>;
-};
-
 / {
     conditional_layers {
         compatible = "zmk,conditional-layers";
